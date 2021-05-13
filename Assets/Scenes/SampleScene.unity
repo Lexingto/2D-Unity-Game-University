@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f955742ef6828841ae82eb7c735ffb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  messageBox: {fileID: 742769089}
+  messageBox: {fileID: 0}
 --- !u!58 &15895073
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3264,7 +3264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a1926f1621bc1546b1ac47a0603e8ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  messageBox: {fileID: 742769089}
+  messageBox: {fileID: 0}
 --- !u!61 &243575282
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3710,7 +3710,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attachedPlayer: {fileID: 1419818484}
-  blendAmount: 0.5
+  blendAmount: 0.05
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -44969,7 +44969,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3bd572d82195864286690f4316657b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  messageBox: {fileID: 742769089}
+  messageBox: {fileID: 0}
 --- !u!58 &957828794
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -45700,7 +45700,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a1926f1621bc1546b1ac47a0603e8ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  messageBox: {fileID: 742769089}
+  messageBox: {fileID: 0}
 --- !u!61 &1242558263
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -74729,7 +74729,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ac95abc9ea7840a78a103e9b11c9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: Gold Ring
+  itemName: 
 --- !u!212 &1704186528
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -75402,7 +75402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a1926f1621bc1546b1ac47a0603e8ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  messageBox: {fileID: 742769089}
+  messageBox: {fileID: 0}
 --- !u!61 &1960735448
 BoxCollider2D:
   m_ObjectHideFlags: 0

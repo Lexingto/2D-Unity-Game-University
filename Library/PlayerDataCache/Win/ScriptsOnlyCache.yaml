@@ -41,6 +41,7 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -1269,4 +1270,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/InsideHouseNearSpawn.unity
   - Assets/Scenes/InsideHouseSmallHouse.unity
   - Assets/Scenes/Controls.unity
-  playerPath: G:/University/1st Year/Game Dev/gamedevcwk/GitHub 2D Game/2D-Unity-Game/Built/topdownrpg.exe
+  playerPath: G:/University/1st Year/Game Dev/gamedevcwk/topdownrpg/Built/topdownrpg.exe

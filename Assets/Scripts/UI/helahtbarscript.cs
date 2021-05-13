@@ -4,22 +4,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class JumpBarSetUp : MonoBehaviour
+public class helahtbarscript : MonoBehaviour
 {
-    Image JumpBar;
-    float maxCool = 100f; //the max amount of health
-    public static float CoolDown;
+    Image HealthBarImage;
+    float maxhealth = 100f; //the max amount of health
+    public static float health;
 
     // Start is called before the first frame update
     void Start()
     {
-        JumpBar = GetComponent<Image>(); //displays the healthbar image
-    CoolDown = maxCool; 
+        HealthBarImage = GetComponent<Image>(); //displays the healthbar image
+        health = maxhealth; 
     }
 
     // Update is called once per frame
     void Update()
     {
-        JumpBar.fillAmount = CoolDown / maxCool; //health divided by the max amount you can have
+        HealthBarImage.fillAmount = health / maxhealth; //health divided by the max amount you can have
     }
 }

@@ -12,6 +12,7 @@ public class healthchange : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D coll)
     {
+        
         if (coll.gameObject.tag == "Spike")
         {
             helahtbarscript.health -= 10f; //takes health
